@@ -7,6 +7,9 @@ This project draws a spider diagram showing the overall research philosophy and 
 https://www.bl.uk/collection-items/heightening-awareness-of-research-philosophy-the-development-of-a-reflexive-tool-for-use-with-students
 
 
+A free version of this project is hosted on <a href='https://tallentire.dev/harp/'>tallentire.dev/harp</a>
+
+
 # Developing this project
 
 This project uses vuejs and graph.js.

@@ -20,6 +20,11 @@ state.initState(props.test);
     <h1>About HARP</h1>
     HARP (heightened awareness of research philosophy) is a questionairre that helps researchers understand their own personal inclinations and how these match up with the prevaling research philosophies.
 
+    <h2>Open source project</h2>
+    This is an open-source project, so if you need to modify it, you can do so.
+    You can find the <a href='https://github.com/danieltallentire/vuejs-harp-reflexive-survey' target="_blank">project on github</a>.
+    This project is licensed under the <a href='https://github.com/danieltallentire/vuejs-harp-reflexive-survey/blob/main/LICENSE.md'>GNU GPL</a>.
+
     <h2>References</h2>
     <span class="reference pure-u-1">Bristow, A. and Saunders, M. (2014) Heightening awareness of research philosophy: the development of a reflexive tool for use with students. In: British Academy of Management Conference Proceedings 2014. British Academy of Management Conference Proceedings 2014. [Online]. 9 September 2014 British Academy of Management. p. Available at: <a href='https://www.bl.uk/collection-items/heightening-awareness-of-research-philosophy-the-development-of-a-reflexive-tool-for-use-with-students' target='_blank'>https://www.bl.uk/collection-items/heightening-awareness-of-research-philosophy-the-development-of-a-reflexive-tool-for-use-with-students</a>.</span>
 
