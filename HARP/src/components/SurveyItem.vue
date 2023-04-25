@@ -21,13 +21,13 @@ defineEmits<{
     <fieldset
       @change="$emit('selected')"
       >
-      <input name="agreement" type="radio" v-model="surveys.items[index].agreement" :value="3">Strongly agree<br>
-      <input  name="agreement" type="radio" v-model="surveys.items[index].agreement" :value="2">Agree<br>
-      <input  name="agreement" type="radio" v-model="surveys.items[index].agreement" :value="1">Slightly agree<br>
-      <input  name="agreement" type="radio" v-model="surveys.items[index].agreement"  :value="0">Neither agree nor disagree<br>
-      <input  name="agreement" type="radio" v-model="surveys.items[index].agreement" :value="-1">Slightly disagree<br>
-      <input  name="agreement" type="radio" v-model="surveys.items[index].agreement"  :value="-2">Disagree<br>
-      <input  name="agreement" type="radio" v-model="surveys.items[index].agreement"  :value="-3">Strongly Disagree<br>
+      <input name="agreement" type="radio" v-model="surveys.items[index].agreement" :value="3"> Strongly agree 👍<br>
+      <input  name="agreement" type="radio" v-model="surveys.items[index].agreement" :value="2"> Agree<br>
+      <input  name="agreement" type="radio" v-model="surveys.items[index].agreement" :value="1"> Slightly agree<br>
+      <input  name="agreement" type="radio" v-model="surveys.items[index].agreement"  :value="0"> Neither agree nor disagree<br>
+      <input  name="agreement" type="radio" v-model="surveys.items[index].agreement" :value="-1"> Slightly disagree<br>
+      <input  name="agreement" type="radio" v-model="surveys.items[index].agreement"  :value="-2"> Disagree<br>
+      <input  name="agreement" type="radio" v-model="surveys.items[index].agreement"  :value="-3"> Strongly Disagree 👎<br>
     </fieldset>
   </section>
 </template>

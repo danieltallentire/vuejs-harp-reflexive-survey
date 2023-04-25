@@ -5,9 +5,12 @@ import RadarChart from './RadarChart.vue';
 const surveys = useSurveyStore();
 const labels = [... new Set(surveys.items.map( x => x.supports))]; 
 const data :number[] = [];
+const tableData: Record<string, number> = {};
 
 labels.forEach(label => {
-    data.push(sumFor(label));
+    let labelSum = sumFor(label);
+    data.push(labelSum);
+    tableData[label] = labelSum;
 });
 
 let coreDataset = [{label: "Overall Philosophy", data:data}];
@@ -37,7 +40,17 @@ labels.forEach(labelP => {
 
 
 <template>
+
     <div class="pure-u-1 charts">
+
+
+        <p>
+            Here are the charts that you can use to show your alignment with each research philosophy.
+            A table of information is shown at the bottom.
+            The range of results will be -18 to +18 in terms of alignment.
+
+            You can right click a chart in the list to copy it into your other documents.
+        </p>
 
         <div class="pure-u-1">
             <RadarChart :datasets="coreDataset" :labels="labels">
@@ -48,6 +61,26 @@ labels.forEach(labelP => {
             <RadarChart :datasets="dr" :labels="elements"></RadarChart>
         </div>
         
+        <div class="pure-u-1">
+            <table class="pure-table">
+                <thead>
+                    <tr>
+                        <th>Philosophy</th>
+                        <th>Alignment</th>    
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="d,l in tableData" :key="l" >
+                        <td>
+                            {{ l }}
+                        </td>
+                        <td>
+                            {{ d }}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </template>
 
@@ -56,5 +89,6 @@ labels.forEach(labelP => {
     overflow-y: scroll;
     height: 95vh;
     width: 75vw;
+    padding-top: 15vh;
 }
 </style>

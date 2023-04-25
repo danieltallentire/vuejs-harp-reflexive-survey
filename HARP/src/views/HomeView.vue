@@ -12,6 +12,11 @@ state.initState(props.test);
 
 <template>
   <main>
+    <h1>HARP Survey</h1>
+    There are 30 questions in the questionairre.
+    At the end, you will be shown some results about your alignment with the different research philosophies.
+    Click the Survey tab at the top to begin.
+
     <h1>About HARP</h1>
     HARP (heightened awareness of research philosophy) is a questionairre that helps researchers understand their own personal inclinations and how these match up with the prevaling research philosophies.
 
