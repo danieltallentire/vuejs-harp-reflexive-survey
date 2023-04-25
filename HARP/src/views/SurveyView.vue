@@ -20,6 +20,14 @@ function onSelected()
     
 }
 
+function onBack()
+{
+    // move back a step
+    if (surveys.currentIndex > 0) {
+        surveys.currentIndex = surveys.currentIndex - 1;
+    }
+}
+
 </script>
 
 <template>
@@ -30,6 +38,7 @@ function onSelected()
                 v-bind:key="survey.id" 
                 :index="index"
                 @selected="onSelected"
+                @back="onBack"
                 >
 
             </SurveyItem>

@@ -8,7 +8,8 @@ defineProps<{
 }>()
 
 defineEmits<{
-  (event: 'selected'): void
+  (event: 'selected'): void,
+  (event: 'back'): void,
 }>()
 </script>
 
@@ -20,6 +21,7 @@ defineEmits<{
     </div>
     <fieldset
       @change="$emit('selected')"
+      @click="$emit('selected')"
       >
       <input name="agreement" type="radio" v-model="surveys.items[index].agreement" :value="3"> Strongly agree 👍<br>
       <input  name="agreement" type="radio" v-model="surveys.items[index].agreement" :value="2"> Agree<br>
@@ -29,6 +31,7 @@ defineEmits<{
       <input  name="agreement" type="radio" v-model="surveys.items[index].agreement"  :value="-2"> Disagree<br>
       <input  name="agreement" type="radio" v-model="surveys.items[index].agreement"  :value="-3"> Strongly Disagree 👎<br>
     </fieldset>
+    <input type="button" @click="$emit('back')" value="Back" />
   </section>
 </template>
 
