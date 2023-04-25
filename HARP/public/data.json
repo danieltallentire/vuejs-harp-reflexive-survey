@@ -1,0 +1,186 @@
+{
+"label": "Research Philosophy",
+"shuffle": true,
+"questions": [
+    {
+        "id": "1.1",
+        "statement": "Organisations are real, just like physical objects",
+        "element": "Ontology statements",
+        "supports": "Positivism"
+    },
+    {
+        "id": "1.2",
+        "statement": "Events in organisations are caused by deeper, underlying mechanisms",
+        "element": "Ontology statements",
+        "supports": "Critical realism"
+    },
+    {
+        "id": "1.3",
+        "statement": "The social world we inhabit is a world of multiple meanings, interpretations and realities",
+        "element": "Ontology statements",
+        "supports": "Interpretivism"
+    },
+    {
+        "id": "1.4",
+        "statement": "‘Organisation’ is not a solid and static thing but a flux of collective processes and practices.",
+        "element": "Ontology statements",
+        "supports": "Post-structuralism"
+    },
+    {
+        "id": "1.5",
+        "statement": "People believe to be true what they find useful.",
+        "element": "Ontology statements",
+        "supports": "Pragmatism"
+    },
+    {
+        "id": "2.1",
+        "statement": "Organisational research should provide scientific, objective, accurate and valid explanations of how the organizational world really works.",
+        "element": "Epistemology statements",
+        "supports": "Positivism"
+    },
+    {
+        "id": "2.2",
+        "statement": "Theories and concepts never offer completely certain knowledge, but researchers can use rational thought to decide which theories and concepts are better than others",
+        "element": "Epistemology statements",
+        "supports": "Critical realism"
+    },
+    {
+        "id": "2.3",
+        "statement": "Concepts and theories are too simplistic to capture the full richness of the world.",
+        "element": "Epistemology statements",
+        "supports": "Interpretivism"
+    },
+    {
+        "id": "2.4",
+        "statement": "What generally counts as ‘real’, ‘true’ and ‘valid’ is determined by dominant political ideologies.",
+        "element": "Epistemology statements",
+        "supports": "Post-structuralism"
+    },
+    {
+        "id": "2.5",
+        "statement": "The value of knowledge is that it enables things to be done successfully",
+        "element": "Epistemology statements",
+        "supports": "Pragmatism"
+    },
+    {
+        "id": "3.1",
+        "statement": "Researcher values and beliefs must be excluded from the research process. ",
+        "element": "Axiololgy statements",
+        "supports": "Positivism"
+    },
+    {
+        "id": "3.2",
+        "statement": "Researchers must try to be as objective and realistic as they can",
+        "element": "Axiololgy statements",
+        "supports": "Critical realism"
+    },
+    {
+        "id": "3.3",
+        "statement": "Researchers’ values and beliefs are key to their interpretations of the social world.",
+        "element": "Axiololgy statements",
+        "supports": "Interpretivism"
+    },
+    {
+        "id": "3.4",
+        "statement": "Researchers should openly and critically discuss their own values and beliefs.",
+        "element": "Axiololgy statements",
+        "supports": "Post-structuralism"
+    },
+    {
+        "id": "3.5",
+        "statement": "Research shapes and is shaped by what the researcher believes and doubts.",
+        "element": "Axiololgy statements",
+        "supports": "Pragmatism"
+    },
+    {
+        "id": "4.1",
+        "statement": "The purpose of research is to discover facts and regularities, and predict future events.",
+        "element": "Purpose of research statements",
+        "supports": "Positivism"
+    },
+    {
+        "id": "4.2",
+        "statement": "The purpose of organisational research is to offer an explanation of how and why organisations and societies are structured.",
+        "element": "Purpose of research statements",
+        "supports": "Critical realism"
+    },
+    {
+        "id": "4.3",
+        "statement": "The purpose of research is to create new understandings that allow people to see the world in new ways.",
+        "element": "Purpose of research statements",
+        "supports": "Interpretivism"
+    },
+    {
+        "id": "4.4",
+        "statement": "The purpose of research is to examine and question the power relations that sustain conventional thinking and practices.",
+        "element": "Purpose of research statements",
+        "supports": "Post-structuralism"
+    },
+    {
+        "id": "4.5",
+        "statement": "The purpose of research is to solve problems and inform future practice.",
+        "element": "Purpose of research statements",
+        "supports": "Pragmatism"
+    },
+    {
+        "id": "5.1",
+        "statement": "Things that cannot be measured have no meaning for the purposes of research.",
+        "element": "Meaningfulness of data statements",
+        "supports": "Positivism"
+    },
+    {
+        "id": "5.2",
+        "statement": "Organisational theories and research findings should be evaluated in terms of their explanatory power of the causes of organisational behaviour.",
+        "element": "Meaningfulness of data statements",
+        "supports": "Critical realism"
+    },
+    {
+        "id": "5.3",
+        "statement": "To be meaningful, social research must include participants’ own interpretations of their experiences, as well as researchers’ interpretations.",
+        "element": "Meaningfulness of data statements",
+        "supports": "Interpretivism"
+    },
+    {
+        "id": "5.4",
+        "statement": "Absences and silences in the world around us are at least as important as what is prominent and obvious.",
+        "element": "Meaningfulness of data statements",
+        "supports": "Post-structuralism"
+    },
+    {
+        "id": "5.5",
+        "statement": "Meaning emerges out of our practical, experimental and critical engagement with the world.",
+        "element": "Meaningfulness of data statements",
+        "supports": "Pragmatism"
+    },
+    {
+        "id": "6.1",
+        "statement": "Human behaviour is determined by natural forces.",
+        "element": "Structure and agency statements",
+        "supports": "Positivism"
+    },
+    {
+        "id": "6.2",
+        "statement": "People’s choices and actions are always limited by the social norms, rules and traditions in which they are located.",
+        "element": "Structure and agency statements",
+        "supports": "Critical realism"
+    },
+    {
+        "id": "6.3",
+        "statement": "Individuals’ meaning-making is always specific to their experiences, culture and history.",
+        "element": "Structure and agency statements",
+        "supports": "Interpretivism"
+    },
+    {
+        "id": "6.4",
+        "statement": "Structure, order and form are human constructions",
+        "element": "Structure and agency statements",
+        "supports": "Post-structuralism"
+    },
+    {
+        "id": "6.5",
+        "statement": "People can use organisational routines and customs creatively to instigate innovation and change.",
+        "element": "Structure and agency statements",
+        "supports": "Pragmatism"
+    }
+]
+}
