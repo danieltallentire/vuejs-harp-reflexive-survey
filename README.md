@@ -14,6 +14,9 @@ This project uses vuejs and graph.js.
 This project will run the HARP questionnaire and allow you to modify it.
 The file `public/data.json` contains the questions.  You can edit the statements, elements and what philosophy it supports.
 
+
+The following actions take place from the HARP subfolder.
+
 ## Project Setup
 
 ```sh

@@ -38,11 +38,3 @@ function defaultState() : State
     const state: State = {items: [], currentIndex: 0, label: "Survey"};
     return state;
 }
-
-async function defaultItems() : Promise<Statement[]>
-{
-    
-    
-
-    return file.questions;
-}
