@@ -27,3 +27,10 @@ jobs:
         cd HARP
         npm install
         npm run build
+        
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: dist
+        path: |
+          HARP/dist
